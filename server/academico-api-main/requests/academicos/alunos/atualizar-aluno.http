@@ -1,0 +1,11 @@
+PUT {{address}}/academico/alunos/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nome": "Maria Souza",
+  "sexo": "F",
+  "dt_nasc": "2003-07-15"
+}
+
+>> responses/aluno-update-1-{{$timestamp}}.json

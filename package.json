@@ -1,0 +1,15 @@
+{
+  "name": "academico-app-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "bash -lc 'cd server/academico-api-main && ./mvnw spring-boot:run'",
+    "dev:web": "bash -lc 'cd web/academico-frontend-main && npm install && npm start'",
+    "build:web": "bash -lc 'cd web/academico-frontend-main && npm run build'",
+    "build:server": "bash -lc 'cd server/academico-api-main && ./mvnw -DskipTests package'",
+    "build": "npm run build:server && npm run build:web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

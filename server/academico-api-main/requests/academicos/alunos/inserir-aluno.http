@@ -1,0 +1,11 @@
+POST {{address}}/academico/alunos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nome": "João Silva",
+  "sexo": "M",
+  "dt_nasc": "2003-07-15"
+}
+
+>> responses/aluno-insert-{{$timestamp}}.json

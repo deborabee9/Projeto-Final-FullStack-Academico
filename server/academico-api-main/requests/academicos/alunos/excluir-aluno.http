@@ -1,0 +1,4 @@
+DELETE {{address}}/academico/alunos/1
+Accept: application/json
+
+>> responses/aluno-delete-1-{{$timestamp}}.json

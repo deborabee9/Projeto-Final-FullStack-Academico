@@ -1,0 +1,4 @@
+GET {{address}}/academico/alunos/1
+Accept: application/json
+
+>> responses/aluno-1-{{$timestamp}}.json
