@@ -3,9 +3,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "nome": "João Silva",
+  "nome": "João ",
   "sexo": "M",
-  "dt_nasc": "2003-07-15"
+  "dt_nasc": "2011-10-20"
 }
 
 >> responses/aluno-insert-{{$timestamp}}.json
