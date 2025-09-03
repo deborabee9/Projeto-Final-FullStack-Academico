@@ -1,4 +1,4 @@
-# Acadêmico App — Monorepo (Angular + Spring Boot)
+# Acadêmico App — (Angular + Spring Boot)
 
 Este monorepo reúne **frontend (Angular)** e **backend (Spring Boot)** sem alterações de estilo.
 
